@@ -10,8 +10,8 @@ remote_theme: dieghernan/chulapa
 locale                  :     #default["en-US"] format language-TERRITORY , e.g fr, en-GB, es-MX, pt-BR
 title                   : Producycle  #default["repository_name"]
 title_separator         :     #default [" | "]
-subtitle                : connecting small farms with more communities    #default [your-repository-tagline]  
-description             : connecting small farms with more communities #default [your-repository-tagline]
+subtitle                : Connecting small farms with communities    #default [your-repository-tagline]  
+description             : Connecting small farms with communities #default [your-repository-tagline]
 url                     :     #See baseurl - On Github Pages you may leave it blank - If you use CNAME use your domain
 baseurl                 :     #On Github Pages you may leave it blank. Have a look to: https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
 words_per_minute        :     #default[200]
@@ -24,9 +24,9 @@ author:
   name                  :  Producycle   # Name Surname Company
   avatar                :     # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
   location              :  "Berkeley, CA, USA"   # New York, USA 
-#  links:                
-#    - url:  #A link or email: https://twitter.com/jack, mail@example.com
-#      icon: # A Fontawesome 5 code: fab fa-twitter - see https://fontawesome.com/
+links:                
+    - url: hello@producycle.com #A link or email: https://twitter.com/jack, mail@example.com
+      icon: fa-regular fa-envelope # A Fontawesome 5 code: fab fa-twitter - see https://fontawesome.com/
 #    - url:  # Another link
 #      icon: # Anothet FontAwesome code
 
@@ -96,25 +96,25 @@ navbar:
     title   :  Home # Title in navbar
     url     :  # default["url/baseurl"]
     img     :  # An small image, try 30x30px
-  nav:
-  - title   : Blog # Label
-    url     : /blog/ # url	
-  - title   : Cheatsheets
-    url     : /cheatsheets
-  - title   : Extras
-    child   :
-      - title : Tags
-        url   : /tags
-      - title : Categories
-        url   : /categories
-      - title : Archive
-        url   : /archive
-      - title : Current skin
-        url   : /current-skin
-  - title   : Docs
-    url     : https://dieghernan.github.io/chulapa/docs/01-install
-  - title   : Use this template
-    url     : https://github.com/dieghernan/chulapa-101/generate
+#  nav:
+#  - title   : Blog # Label
+#    url     : /blog/ # url	
+#  - title   : Cheatsheets
+#    url     : /cheatsheets
+#  - title   : Extras
+#    child   :
+#      - title : Tags
+#        url   : /tags
+#      - title : Categories
+#        url   : /categories
+#      - title : Archive
+#        url   : /archive
+#      - title : Current skin
+#        url   : /current-skin
+#  - title   : Docs
+#    url     : https://dieghernan.github.io/chulapa/docs/01-install
+#  - title   : Use this template
+#    url     : https://github.com/dieghernan/chulapa-101/generate
 #  - title   : # Label submenu
 #    child:		
 #    - title: # Child label		
@@ -124,26 +124,29 @@ navbar:
 #Social links to be placed on your site footer
 footer:
   links:
-    - label : Repo on Github # Label
-      icon  : fab fa-github # Fontawesome 5 icon
-      url   : https://github.com/dieghernan/chulapa-101 # A link or email: https://twitter.com/jack, mail@example.com
-    - label: "RSS"
-      icon: "fa fa-rss"
-      url:  "./atom.xml"
+    - label : Email # Label
+      icon  : fa-regular fa-envelope # Fontawesome 5 icon
+      url   : hello@producycle.com # A link or email: https://twitter.com/jack, mail@example.com
+  #  - label: "RSS"
+  #    icon: "fa fa-rss"
+  #    url:  "./atom.xml"
   copyright: # default is © <year> <name> 
   
 # C. Theme Settings
 # Google Fonts https://fonts.google.com/, add as many as you need
 googlefonts:
- # - url : # 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'
+  - url :  'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'
+  - url :  'https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap'
+
 
 # Theme and colors
 chulapa-skin: 
   highlight     :  # default["default"]
-  skin         :  # Optional predefined skins
+  skin          :  Pear # Optional predefined skins
   autothemer    :  true # Bool: Use autotheming
   vars          :    
-    primary     : "#ffbe98" #default ["#007bff"] - Bootstrap blue
+    primary     : "#19401b" #default ["#007bff"] - Bootstrap blue #19401b
+    headings-font-family: "Amatic SC"
     
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 

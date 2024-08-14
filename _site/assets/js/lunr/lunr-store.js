@@ -14,6 +14,16 @@ var store = [{
         "url": "http://localhost:4000/archive",
         "img": null
       },{
+        "title": "<span>Producycle</span>",
+        "subtitle": "Connecting small farms with communities",
+        "excerpt":
+            " ",
+        "categories": null,
+        "date": null,
+        "tags": null,
+        "url": "http://localhost:4000/",
+        "img": "http://localhost:4000/assets/img/landing/Salad.jpg"
+      },{
         "title": "First post!",
         "subtitle": null,
         "excerpt":
