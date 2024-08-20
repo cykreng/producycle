@@ -22,7 +22,7 @@ og_image                :     #default[author.avatar (see below)] or [github-ava
 twitter_site            :     #Avoid @
 author:
   name                  :  Producycle   # Name Surname Company
-  avatar                :     # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
+  avatar                :  /assets/img/Logo.png   # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
   location              :  "Berkeley, CA, USA"   # New York, USA 
 links:                
     - url: hello@producycle.com #A link or email: https://twitter.com/jack, mail@example.com
@@ -96,9 +96,9 @@ navbar:
     title   :  Home # Title in navbar
     url     :  # default["url/baseurl"]
     img     :  # An small image, try 30x30px
-#  nav:
-#  - title   : Blog # Label
-#    url     : /blog/ # url	
+  nav:
+  - title   : Blog # Label
+    url     : /blog/ # url	
 #  - title   : Cheatsheets
 #    url     : /cheatsheets
 #  - title   : Extras
@@ -146,7 +146,7 @@ chulapa-skin:
   autothemer    :  true # Bool: Use autotheming
   vars          :    
     primary     : "#19401b" #default ["#007bff"] - Bootstrap blue #19401b
-    headings-font-family: "Amatic SC"
+    headings-font-family: "Roboto"
     
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 

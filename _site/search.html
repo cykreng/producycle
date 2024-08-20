@@ -5,7 +5,7 @@
     <!--  MIT License-->
     <!-- Docs: https://dieghernan.github.io/chulapa -->
     <!-- Repo: https://github.com/dieghernan/chulapa -->
-    <!-- Page build 2024-08-13 18:15:37 -0700 -->
+    <!-- Page build 2024-08-20 16:59:01 -0700 -->
     <!--Google Structured Data-->
     <script type="application/ld+json">
         {
@@ -19,8 +19,8 @@
       },
       "headline": "Search",
       "image": "https://github.com/cykreng.png",
-      "datePublished": "2024-08-13T18:15:37-07:00",
-      "dateModified": "2024-08-13T18:15:37-07:00",
+      "datePublished": "2024-08-20T16:59:01-07:00",
+      "dateModified": "2024-08-20T16:59:01-07:00",
       "author": {
         "@type": "Person",
         "name": "Producycle"
@@ -149,7 +149,18 @@
   
 	<nav class="navbar navbar-expand-md sticky-top navbar-chulapa" aria-label="primary-navigation">
 	<div class="container-fluid mx-md-2">
-			<a class="navbar-brand font-weight-bold" href="http://localhost:4000/">Home</a></div>
+			<a class="navbar-brand font-weight-bold" href="http://localhost:4000/">Home</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarToggler">
+				<ul class="navbar-nav ml-auto"><li class="nav-item">
+						<a class="nav-link " href="http://localhost:4000/blog/">Blog</a>
+					</li><li class="nav-item">
+						<a class="nav-link  active font-weight-bold" href="http://localhost:4000/search">
+							<span class="d-md-none p-0 pr-1">Search</span><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search</span>
+						</a>
+					</li></ul>
+			</div></div>
 </nav>
 <header class="text-center header-chulapa">
   <div class="container-lg pt-4">
