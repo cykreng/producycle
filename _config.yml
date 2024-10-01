@@ -10,8 +10,8 @@ remote_theme: dieghernan/chulapa
 locale                  :     #default["en-US"] format language-TERRITORY , e.g fr, en-GB, es-MX, pt-BR
 title                   : Producycle  #default["repository_name"]
 title_separator         :     #default [" | "]
-subtitle                : Connecting small farms with communities    #default [your-repository-tagline]  
-description             : Connecting small farms with communities #default [your-repository-tagline]
+subtitle                : Data transparency for value based procurement    #default [your-repository-tagline]  
+description             : Data transparency for value based procurement #default [your-repository-tagline]
 url                     :     #See baseurl - On Github Pages you may leave it blank - If you use CNAME use your domain
 baseurl                 :     #On Github Pages you may leave it blank. Have a look to: https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
 words_per_minute        :     #default[200]
@@ -25,7 +25,7 @@ author:
   avatar                :  /assets/img/Logo.png   # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
   location              :  "Berkeley, CA, USA"   # New York, USA 
 links:                
-    - url: hello@producycle.com #A link or email: https://twitter.com/jack, mail@example.com
+    - url: cynthia@producycle.com #A link or email: https://twitter.com/jack, mail@example.com
       icon: fa-regular fa-envelope # A Fontawesome 5 code: fab fa-twitter - see https://fontawesome.com/
 #    - url:  # Another link
 #      icon: # Anothet FontAwesome code
@@ -97,8 +97,8 @@ navbar:
     url     :  # default["url/baseurl"]
     img     :  # An small image, try 30x30px
   nav:
-  - title   : Blog # Label
-    url     : /blog/ # url	
+#  - title   : Blog # Label
+#    url     : /blog/ # url	
 #  - title   : Cheatsheets
 #    url     : /cheatsheets
 #  - title   : Extras
