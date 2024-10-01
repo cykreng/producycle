@@ -1,7 +1,7 @@
 ---
 layout: landingpage
 title: '<span>Producycle</span>'
-subtitle: Data Transparency for value based procurement
+subtitle: Supply chain Transparency for value based procurement
 excerpt: Local economies flourishing with nutritious food and fruitful outcomes
 header_type: splash
 header_img: "./assets/img/landing/Salad.jpg"
