@@ -3,17 +3,17 @@
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
 	<link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" />
 	<link href="http://localhost:4000/" rel="alternate" type="text/html" />
-	<updated>2024-08-20T16:59:01-07:00</updated>
+	<updated>2024-10-01T15:05:37-07:00</updated>
 	<id>http://localhost:4000/atom.xml</id>
-	<title>Producycle | Connecting small farms with communities</title>
-	<subtitle>Connecting small farms with communities</subtitle>
+	<title>Producycle | Data transparency for value based procurement</title>
+	<subtitle>Data transparency for value based procurement</subtitle>
 	<author>
 		<name>Producycle</name>
 					
 	</author>
 	<rights>(c) 2024, Producycle</rights>
 	
-	<logo>https://github.com/cykreng.png</logo><entry>
+	<logo>http://localhost:4000/assets/img/Logo.png</logo><entry>
 		<title>US and California Small Farms</title>
 		<link href="http://localhost:4000/20240819_us-farm-statistics/" rel="alternate" type="text/html" title="US and California Small Farms"/>
 		<published>2024-08-19T00:00:00-07:00</published>

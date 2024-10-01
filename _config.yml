@@ -126,7 +126,7 @@ footer:
   links:
     - label : Email # Label
       icon  : fa-regular fa-envelope # Fontawesome 5 icon
-      url   : hello@producycle.com # A link or email: https://twitter.com/jack, mail@example.com
+      url   : cynthia@producycle.com # A link or email: https://twitter.com/jack, mail@example.com
   #  - label: "RSS"
   #    icon: "fa fa-rss"
   #    url:  "./atom.xml"
